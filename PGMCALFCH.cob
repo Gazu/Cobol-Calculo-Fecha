@@ -3,17 +3,17 @@ PROGRAM-ID. PGMCALFCH.
 DATA DIVISION.                                          
 WORKING-STORAGE SECTION.  
     01 WS-VARIABLES.                                
-        05 WS-SEGUNDOS         PIC 9(20) VALUE ZEROES. 
-        05 WS-RESTO-DD         PIC 9(04) VALUE ZEROES. 
-        05 WS-RESTO-HH         PIC 9(04) VALUE ZEROES. 
-        05 WS-RESTO-MM         PIC 9(04) VALUE ZEROES. 
-        05 WS-RESUL-DD         PIC 9(10) VALUE ZEROES. 
-        05 WS-RESUL-HH         PIC 9(10) VALUE ZEROES. 
-        05 WS-RESUL-MM         PIC 9(10) VALUE ZEROES. 
+        05 WS-SEGUNDOS          PIC 9(20) VALUE ZEROES. 
+        05 WS-RESTO-DD          PIC 9(04) VALUE ZEROES. 
+        05 WS-RESTO-HH          PIC 9(04) VALUE ZEROES. 
+        05 WS-RESTO-MM          PIC 9(04) VALUE ZEROES. 
+        05 WS-RESUL-DD          PIC 9(10) VALUE ZEROES. 
+        05 WS-RESUL-HH          PIC 9(10) VALUE ZEROES. 
+        05 WS-RESUL-MM          PIC 9(10) VALUE ZEROES. 
     01 CT-CONSTANTES.                               
-        05 CT-SEG-DD           PIC 9(05) VALUE 86400.  
-        05 CT-SEG-HH           PIC 9(04) VALUE 3600.   
-        05 CT-SEG-MM           PIC 9(02) VALUE 60.   
+        05 CT-SEG-DD            PIC 9(05) VALUE 86400.  
+        05 CT-SEG-HH            PIC 9(04) VALUE 3600.   
+        05 CT-SEG-MM            PIC 9(02) VALUE 60.   
 PROCEDURE DIVISION. 
     PERFORM 1-INICIO 
     PERFORM 2-PROCESO
