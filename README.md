@@ -1,6 +1,6 @@
 # Cobol-Calculo-Fecha
 
-Programa Cobol que a partir de una variable en segundos. Calcula los dias, minutos y segundos correspondientes.
+Programa Cobol que a partir de una variable en segundos. Calcula los dias, horas, minutos y segundos correspondientes.
 
 Esto sirve para calcular ans, ver tiempo transcurrido o cualquier funcionada para determinar un tiempo determinado.
 
